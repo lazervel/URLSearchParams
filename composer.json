@@ -1,0 +1,46 @@
+{
+  "name": "web/url-search-params",
+  "description": "A PHP implementation of URLSearchParams for handling query parameters easily.",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/lazervel",
+  "keywords": [
+    "url",
+    "search",
+    "usp",
+    "params",
+    "query",
+    "php",
+    "urlsearchparams"
+  ],
+  "authors": [
+    {
+      "name": "Shahzada Modassir",
+      "email": "shahzadamodassir@gmail.com",
+      "homepage": "https://github.com/shahzadamodassir"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Web\\URLSearchParams\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.4 || ^8.0"
+  },
+  "funding": [
+    {
+      "type": "Github",
+      "url": "https://github.com/shahzadamodassir"
+    },
+    {
+      "type": "Patreon",
+      "url": "https://patreon.com/shahzadamodassir"
+    },
+    {
+      "type": "Opencollective",
+      "url": "https://opencollective.com/shahzadamodassir"
+    }
+  ],
+  "minimum-stability": "stable"
+}
